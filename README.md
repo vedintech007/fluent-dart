@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# Dart-tricks
+
+- Variables and data types
+- Optionals
+- Late Keyword
