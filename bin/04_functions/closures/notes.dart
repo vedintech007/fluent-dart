@@ -1,0 +1,3 @@
+/*
+A function can be created in the global scope or within the scope of another function. A function that can be referenced with an access to the variables in its lexical scope is called a closure
+ */
