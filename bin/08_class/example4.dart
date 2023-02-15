@@ -13,15 +13,17 @@ class Person {
   String get fullName => "$firstName $lastName";
 
   final String anyThing;
+  final String something;
 
   Person({
     required this.firstName,
     required this.lastName,
-  }) : anyThing = calcForString();
+  })  : anyThing = calcForString(),
+        something = "Maui";
 }
 
-String calcForString() {
-  return "hell";
+String calcForString({String? firstName}) {
+  return firstName ?? "Maui First Name";
 }
 
 // class Person {

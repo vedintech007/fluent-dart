@@ -1,13 +1,13 @@
 void main(List<String> args) {
-  final car = Car();
+  // final car = Car();
 
-  print(car);
-  car.accelerate();
-  car.decelerate();
+  // print(car);
+  // car.accelerate();
+  // car.decelerate();
 
   final mc = Motocycle();
 
-  print(mc);
+  mc.accelerate();
 }
 
 abstract class Vehicle {

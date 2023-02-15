@@ -24,9 +24,7 @@ class Car {
     }
   }
 
-  void drive({
-    required int speed,
-  }) {
+  void drive({required int speed}) {
     this.speed = speed;
     print("Accelarating to $speed km/h");
   }

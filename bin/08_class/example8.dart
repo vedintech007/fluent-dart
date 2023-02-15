@@ -14,7 +14,9 @@ class Vehicle {
 }
 
 class Car extends Vehicle {
-  const Car();
+  Car() {
+    print("Car called as a factory contructor");
+  }
 }
 
 class Truck extends Vehicle {
